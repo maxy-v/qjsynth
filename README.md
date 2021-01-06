@@ -1,6 +1,10 @@
 # qjsynth
 Do you want to create your own music program? Take a look at this small and simple project. It can give some ideas for a possible implementation.
 
+![alt text](https://1.bp.blogspot.com/-Jwkob8mmXg4/X_Y5V06WwaI/AAAAAAAAACU/isdmgVfN5W8dQxcALlaWPoecNka7uVtmQCLcBGAsYHQ/s1272/screen1.png)
+
+Screenshots and videos: https://maxy-v.blogspot.com/2021/01/qjsynth-screenshots-and-video.html
+
 Features:
 * 4 types of sound
   * Sin
