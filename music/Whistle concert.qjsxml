@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<qjsynth_project href="https://github.com/maxy-v/qjsynth" version="">
+    <pattern_size value="360"/>
+    <synth name="sin whistle" script="// Set class properties&#10;&#10;if (self.pitches == null)&#10;{&#10;&#9;self.pitches = [0, 0.2, 0.4, 0.2, 0, -0.2, -0.4, -0.2]&#10;}&#10;&#10;// Set sound properties&#10;&#10;snd.type = snd.SIN&#10;&#10;switch(arg.frame)&#10;{&#10;case 0:&#10;&#9;snd.volume_from = 0&#10;&#9;snd.volume_to   = 0.5;&#10;&#9;break;&#10;case 1:&#10;&#9;snd.volume_from = 0.5&#10;&#9;snd.volume_to   = 1.0;&#10;&#9;break;&#10;case arg.frames-2:&#10;&#9;snd.volume_from = 1.0&#10;&#9;snd.volume_to   = 0.5;&#10;&#9;break;&#10;case arg.frames-1:&#10;&#9;snd.volume_from = 0.5&#10;&#9;snd.volume_to   = 0.0;&#10;&#9;break;&#10;}&#10;&#10;var pitch_count = self.pitches.length;&#10;if (arg.frame &gt; pitch_count*2)&#10;&#9;snd.pitch = self.pitches[arg.frame%pitch_count]" color="#66a4da"/>
+    <pitem key="72" frame="0" size="10" index="0"/>
+    <pitem key="75" frame="11" size="11" index="0"/>
+    <pitem key="76" frame="22" size="1" index="0"/>
+    <pitem key="77" frame="23" size="52" index="0"/>
+    <pitem key="75" frame="77" size="8" index="0"/>
+    <pitem key="79" frame="88" size="57" index="0"/>
+    <pitem key="72" frame="146" size="10" index="0"/>
+    <pitem key="75" frame="157" size="11" index="0"/>
+    <pitem key="76" frame="168" size="1" index="0"/>
+    <pitem key="78" frame="169" size="24" index="0"/>
+    <pitem key="77" frame="194" size="16" index="0"/>
+    <pitem key="75" frame="216" size="11" index="0"/>
+    <pitem key="70" frame="228" size="10" index="0"/>
+    <pitem key="72" frame="240" size="54" index="0"/>
+</qjsynth_project>

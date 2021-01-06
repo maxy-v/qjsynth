@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<qjsynth_project href="https://github.com/maxy-v/qjsynth" version="">
+    <pattern_size value="278"/>
+    <synth name="arpeggio" script="// Setup class properties&#10;&#10;if (self.pitches == null)&#10;&#9;self.pitches = [0,0,-3,-7]&#10;&#10;// Set sound properties&#10;&#10;var pitch_count = self.pitches.length;&#10;&#10;snd.type        = snd.SQUARE&#10;snd.volume_from = 0.1&#10;snd.volume_to   = 0.1&#10;snd.pitch       = self.pitches[&#10;&#9;arg.frame%pitch_count&#10;]" color="#ddbea4"/>
+    <pitem key="63" frame="228" size="8" index="0"/>
+    <pitem key="63" frame="247" size="8" index="0"/>
+    <pitem key="60" frame="158" size="8" index="0"/>
+    <pitem key="65" frame="210" size="8" index="0"/>
+    <pitem key="65" frame="190" size="8" index="0"/>
+    <pitem key="60" frame="148" size="8" index="0"/>
+    <pitem key="60" frame="138" size="8" index="0"/>
+    <pitem key="60" frame="109" size="8" index="0"/>
+    <pitem key="58" frame="100" size="8" index="0"/>
+    <pitem key="60" frame="82" size="8" index="0"/>
+    <pitem key="60" frame="62" size="8" index="0"/>
+    <pitem key="58" frame="52" size="8" index="0"/>
+    <pitem key="60" frame="20" size="8" index="0"/>
+    <pitem key="60" frame="10" size="8" index="0"/>
+    <pitem key="60" frame="0" size="8" index="0"/>
+</qjsynth_project>
