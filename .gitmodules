@@ -1,0 +1,15 @@
+[submodule "ValueSlider"]
+	path = ValueSlider
+	url = https://github.com/maxy-v/ValueSlider
+[submodule "SignalerGraphicsView"]
+	path = SignalerGraphicsView
+	url = https://github.com/maxy-v/SignalerGraphicsView
+[submodule "QtDarkStyle"]
+	path = QtDarkStyle
+	url = https://github.com/maxy-v/QtDarkStyle
+[submodule "EnumClass"]
+	path = EnumClass
+	url = https://github.com/maxy-v/EnumClass
+[submodule "SoundStream"]
+	path = SoundStream
+	url = https://github.com/maxy-v/SoundStream
