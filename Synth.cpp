@@ -1,5 +1,9 @@
 #include "Synth.h"
 
+Synth::~Synth()
+{
+}
+
 double Synth::value(int a_index)
 {
 	Q_ASSERT(a_index >= 0 && a_index < sizeof(m_values));

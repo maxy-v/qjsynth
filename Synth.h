@@ -7,6 +7,8 @@
 class Synth
 {
 public:
+	virtual ~Synth();
+
 	double value(int a_index);
 	virtual SynthType type() = 0;
 	virtual void generate(double a_phase, double a_frequency) = 0;
